@@ -1,0 +1,49 @@
+{
+  "id": "com.codearcade.waterguard",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "sdk": 3,
+  "brandColor": "#235d86",
+  "name": {
+    "en": "Water Guard",
+    "nl": "Water Guard"
+  },
+  "description": {
+    "en": "Turn meter pulses into useful water alerts and usage estimates.",
+    "nl": "Zet meterpulsen om in bruikbare watermeldingen en verbruiksschattingen."
+  },
+  "category": "tools",
+  "tags": {
+    "en": [
+      "water",
+      "water meter",
+      "leak detection",
+      "usage",
+      "pulse counter"
+    ],
+    "nl": [
+      "water",
+      "watermeter",
+      "lekkage",
+      "verbruik",
+      "pulsteller"
+    ]
+  },
+  "images": {
+    "small": "/assets/store-small.png",
+    "large": "/assets/store-large.png",
+    "xlarge": "/assets/store-xlarge.png"
+  },
+  "author": {
+    "name": "CodeArcade"
+  },
+  "source": "https://github.com/CodeArcade-ctrl/water-guard",
+  "homepage": "https://github.com/CodeArcade-ctrl/water-guard",
+  "bugs": {
+    "url": "https://github.com/CodeArcade-ctrl/water-guard/issues"
+  }
+}
