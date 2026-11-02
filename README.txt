@@ -1,0 +1,1 @@
+Use meter pulses in your Flows to estimate litres, spot unusual flow, and put a cost against water use. Set the pulse calibration for your meter and connect readings from a Homey device. This app analyses your readings; it does not shut off a valve.

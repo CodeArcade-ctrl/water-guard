@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Water use reaches a limit",
+    "nl": "Waterverbruik bereikt een grens"
+  },
+  "hint": {
+    "en": "Checks values supplied by the Flow; the app does not collect a meter history.",
+    "nl": "Controleert Flow-waarden; de app verzamelt geen meterhistorie."
+  },
+  "args": [
+    {
+      "name": "litres",
+      "type": "number",
+      "title": {
+        "en": "Water use (L)",
+        "nl": "Waterverbruik (L)"
+      }
+    },
+    {
+      "name": "limit_litres",
+      "type": "number",
+      "title": {
+        "en": "Usage limit (L)",
+        "nl": "Verbruiksgrens (L)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "[[litres]] L reaches a usage limit of [[limit_litres]] L",
+    "nl": "[[litres]] L bereikt een verbruiksgrens van [[limit_litres]] L"
+  }
+}

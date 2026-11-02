@@ -1,0 +1,42 @@
+{
+  "title": {
+    "en": "Convert water meter pulses",
+    "nl": "Zet watermeterpulsen om"
+  },
+  "hint": {
+    "en": "Use a whole-number pulse count and the calibration printed for your meter.",
+    "nl": "Gebruik een geheel aantal pulsen en de kalibratiewaarde van je meter."
+  },
+  "args": [
+    {
+      "name": "pulses",
+      "type": "number",
+      "title": {
+        "en": "Pulse count",
+        "nl": "Aantal pulsen"
+      }
+    },
+    {
+      "name": "litres_per_pulse",
+      "type": "number",
+      "title": {
+        "en": "Litres per pulse",
+        "nl": "Liter per puls"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Convert [[pulses]] pulses at [[litres_per_pulse]] litres each",
+    "nl": "Zet [[pulses]] pulsen van [[litres_per_pulse]] liter om"
+  },
+  "tokens": [
+    {
+      "name": "litres",
+      "type": "number",
+      "title": {
+        "en": "Water volume (L)",
+        "nl": "Watervolume (L)"
+      }
+    }
+  ]
+}

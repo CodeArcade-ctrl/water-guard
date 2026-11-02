@@ -1,0 +1,1 @@
+Gebruik meterpulsen in je Flows om liters te schatten, ongewoon debiet te signaleren en kosten aan waterverbruik te koppelen. Stel de pulswaarde voor je meter in en verbind metingen van een Homey-apparaat. De app analyseert metingen, maar sluit geen waterklep.

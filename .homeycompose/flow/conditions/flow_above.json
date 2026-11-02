@@ -1,0 +1,40 @@
+{
+  "title": {
+    "en": "Water flow reaches a threshold",
+    "nl": "Waterdebiet bereikt een grens"
+  },
+  "hint": {
+    "en": "Compare a measured interval with the threshold you choose.",
+    "nl": "Vergelijkt een meetperiode met de gekozen grenswaarde."
+  },
+  "args": [
+    {
+      "name": "litres",
+      "type": "number",
+      "title": {
+        "en": "Water volume (L)",
+        "nl": "Watervolume (L)"
+      }
+    },
+    {
+      "name": "minutes",
+      "type": "number",
+      "title": {
+        "en": "Interval (minutes)",
+        "nl": "Periode (minuten)"
+      }
+    },
+    {
+      "name": "threshold_lpm",
+      "type": "number",
+      "title": {
+        "en": "Flow threshold (L/min)",
+        "nl": "Debietgrens (L/min)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "[[litres]] L in [[minutes]] minutes reaches [[threshold_lpm]] L/min",
+    "nl": "[[litres]] L in [[minutes]] minuten bereikt [[threshold_lpm]] L/min"
+  }
+}

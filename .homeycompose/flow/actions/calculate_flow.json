@@ -1,0 +1,42 @@
+{
+  "title": {
+    "en": "Calculate water flow rate",
+    "nl": "Bereken waterdebiet"
+  },
+  "hint": {
+    "en": "Calculates an average flow rate for the supplied interval.",
+    "nl": "Berekent het gemiddelde debiet over de opgegeven periode."
+  },
+  "args": [
+    {
+      "name": "litres",
+      "type": "number",
+      "title": {
+        "en": "Water volume (L)",
+        "nl": "Watervolume (L)"
+      }
+    },
+    {
+      "name": "minutes",
+      "type": "number",
+      "title": {
+        "en": "Interval (minutes)",
+        "nl": "Periode (minuten)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Calculate flow from [[litres]] L over [[minutes]] minutes",
+    "nl": "Bereken debiet van [[litres]] L over [[minutes]] minuten"
+  },
+  "tokens": [
+    {
+      "name": "litres_per_minute",
+      "type": "number",
+      "title": {
+        "en": "Flow rate (L/min)",
+        "nl": "Debiet (L/min)"
+      }
+    }
+  ]
+}
